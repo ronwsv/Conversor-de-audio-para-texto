@@ -1,0 +1,10 @@
+comece instalando a biblioteca do assemblyAI
+
+pip install assemblyai
+
+depois crie um arquivo .py
+
+e coloque o audio .mp3 ou m4a não testei com outros
+e rodar o codigo.
+
+Foi feito no pycharm já com o .venv
