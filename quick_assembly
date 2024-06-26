@@ -1,0 +1,21 @@
+import assemblyai as aai
+
+# Configurar a chave da API
+aai.settings.api_key = "a0626c8259b246ee8aef81db385bde9b"
+
+# Caminho para o arquivo de áudio local
+audio_file_path = "audioO.mp3"
+
+# Upload do arquivo de áudio para AssemblyAI
+
+audio_url = "audio.mp3"
+
+# Configurar a transcrição
+config = aai.TranscriptionConfig(
+    language_code="pt",  # Código do idioma para português
+    punctuate=True,      # Adicionar pontuação à transcrição
+    format_text=True     # Formatar texto automaticamente
+)
+
+# Criar o transcritor
+transcriber = aai.Transcriber()
